@@ -11,3 +11,7 @@ app.get('/', (req, res) => {
     res.send('Welcome to backend');
 })
 
+
+app.listen(port , () =>{
+    console.log(`Server is running on the port: ${port}`)
+})
